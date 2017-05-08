@@ -1,0 +1,4 @@
+1) The limitations of the Self signed certificates are as follows,
+They may lead to authentications error since these certificates are not trusted by other application or operating systems.Self-signed certificates life time is  1 year and need to be renewed/replaced every year which is a big task.There is no support for advanced PKI functions and many of the advanced feathers of the server side applications required to impended a PKI (Public Key Infrastructure)
+
+2) Self-marked declarations are generally simple to create and tweak, the server can change its key size and when the server has little number of customers,SSL is best.An SSL certificate is required for all SSL transactions and should not be used for public-facing production websites
